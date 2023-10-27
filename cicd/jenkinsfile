@@ -4,7 +4,7 @@ pipeline {
     environment {
         DOCKER_HUB_CREDENTIALS = credentials('dockercreds')
         CONTAINER_NAME = "reactTest"
-        DOCKER_IMAGE = "navin531/reactTest:${BUILD_NUMBER}"
+        DOCKER_IMAGE = "navin531/reacttest:${BUILD_NUMBER}"
         SSH_CREDENTIAL = credentials('sshcred')
         EC2_INSTANCE_IP = '51.20.65.40'
         EC2_USERNAME = 'ec2-user'
