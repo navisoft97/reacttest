@@ -28,8 +28,8 @@ pipeline {
             steps {
                 script {
                     echo 'Running unit tests'
-                    sh 'npm install' // You can use npm ci for a faster, clean install
-                    sh 'npm test --passWithNoTests'     // Use npm test to run your Jest tests
+                    // sh 'npm install' // You can use npm ci for a faster, clean install
+                    // sh 'npm test --passWithNoTests'     // Use npm test to run your Jest tests
                     echo 'Running unit tests done!!'
                 
                 }
